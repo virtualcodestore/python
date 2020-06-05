@@ -27,6 +27,9 @@
     <Compile Include="favourite_languages.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="number_reader.py" />
+    <Compile Include="number_writer.py" />
+    <Compile Include="file not found error.py" />
     <Compile Include="file_reader.py">
       <SubType>Code</SubType>
     </Compile>
@@ -37,11 +40,13 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="PythonApplication1.py" />
+    <Compile Include="division.py" />
     <Compile Include="write_message.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="alice.txt" />
     <Content Include="pi_string.py" />
     <Content Include="pi_digits.txt" />
   </ItemGroup>

@@ -27,6 +27,9 @@
     <Compile Include="favourite_languages.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="file_reader.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Test Electric Car.py" />
     <Compile Include="Test Restauranty.py" />
     <Compile Include="RestaurantClass.py" />
@@ -34,6 +37,13 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="PythonApplication1.py" />
+    <Compile Include="write_message.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="pi_string.py" />
+    <Content Include="pi_digits.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

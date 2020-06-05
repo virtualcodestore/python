@@ -21,6 +21,18 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Car and Electric Car.py" />
+    <Compile Include="Electric_Car.py" />
+    <Compile Include="Car.py" />
+    <Compile Include="favourite_languages.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Test Electric Car.py" />
+    <Compile Include="Test Restauranty.py" />
+    <Compile Include="RestaurantClass.py" />
+    <Compile Include="DogClass.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PythonApplication1.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
